@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install vue-router axios element-ui
 ```
 
 ### Compiles and hot-reloads for development
