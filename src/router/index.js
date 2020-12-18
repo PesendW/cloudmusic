@@ -7,6 +7,9 @@ import Songs from '@/views/Songs'
 import MVs from '@/views/MVs'
 import NotFoundComponent from '@/views/NotFoundComponent'
 
+import Playlist from '@/views/Playlist'
+import MVComponent from '@/views/MV'
+
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -26,6 +29,14 @@ const router = new VueRouter({
     {
       path: '/mvs',
       component: MVs,
+    },
+    {
+      path: '/playlist',
+      component: Playlist
+    },
+    {
+      path: '/mv/:id',
+      component: MVComponent
     },
     {
       path: '/',
